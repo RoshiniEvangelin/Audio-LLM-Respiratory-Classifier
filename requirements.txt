@@ -1,0 +1,10 @@
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.44.0
+peft>=0.11.0
+accelerate>=0.30.0
+numpy
+tqdm
+# optional, only needed if you pass --use_4bit / cfg.use_4bit=True to fit
+# Phi-2 on a smaller single GPU:
+bitsandbytes>=0.43.0
