@@ -1,5 +1,11 @@
 # RespiraMFM — implementation scaffold
 
+*Built to get hands-on, end to end, with the full pipeline the paper describes —
+contrastive audio-language alignment followed by LoRA fine-tuning of an LLM on
+top of it — including the parts that don't show up in a paper: no official code
+release to check against, dataset metadata that wasn't where the docs said it'd
+be, and adapting a Linux-first architecture to run cleanly on Windows.*
+
 A working PyTorch reimplementation scaffold of **"RespiraMFM: A Multimodal
 Foundation Model with Contrastive Audio-Language Alignment for Respiratory
 Disease Identification"** (arXiv:[2606.09966](https://arxiv.org/abs/2606.09966),
@@ -191,3 +197,9 @@ few adjustments, all already wired into the config:
    the loss curve) before adding more datasets.
 5. Only then consider wiring up Coughvid/Coswara for the zero-shot-style
    evaluation the paper does.
+
+## Author
+
+Built by [Roshini Evangelin Tamanamu](https://github.com/RoshiniEvangelin) —
+M.S. Computer Science candidate at Purdue University Northwest, Graduate
+Research Assistant at the CIVS Lab.
